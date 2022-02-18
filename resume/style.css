@@ -1,5 +1,53 @@
+/* Styles for my resume */
+
+/* Fonts are now added to the code to be displayed */
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
+  font-weight: 400;
+}
+
+/* Adding elemnts to headline my name on webpage*/
+h1 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #33485e;
+  text-align: center;
+}
+
+/* My title is blue and bigger  */
+strong {
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Added a blue background and white text to section titles */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+}
+
+/* Job title becomes larger and much bolder */
+h3 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+/* Job organizations are large and somewhat bolded */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* Job dates are now italicized and touched up */
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
 }
