@@ -99,6 +99,7 @@ BODY {
   text-align: center;
 }
 
+/* Degrees are now bulleted items under Education */
 #degrees {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -106,6 +107,7 @@ BODY {
   margin-right: 0px;
 }
 
+/* What I am able to do is listed as bullets under skills */
 #do {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -118,7 +120,7 @@ li {
   font-size: 1em;
 }
 
-
+/* Centering the mission statement on top of the resume to be placed under Self-employed properly*/
 .top {
   width: 60%;
   min-width: 300px;
