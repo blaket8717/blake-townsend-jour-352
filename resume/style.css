@@ -51,21 +51,41 @@ strong {
   margin: 0 auto;
 }
 
-/* Job title becomes larger and much bolder */
-h3 {
+/* Changed the size of the font and boldness to job titles */
+.jobtitle {
   font-weight: 600;
   font-size: 2em;
 }
 
-/* Job organizations are large and somewhat bolded */
-h4 {
+/* Changed the size of the font and boldness to organizations */
+.organization {
   font-weight: 400;
   font-size: 1.5em;
 }
 
 /* Job dates are now italicized and touched up */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin: 0 auto;
+}
+
+/* */
+.description {
+
+}
+
+/* Menu items are replacing ul tags which included margining and padding */
+.menu {
+
+}
+
+/* List items are now set at 1em font */
+li {
+  font-size: 1em;
 }
