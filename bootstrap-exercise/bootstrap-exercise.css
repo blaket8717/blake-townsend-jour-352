@@ -1,0 +1,27 @@
+.body {
+  font-family: "Special Elite", sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+
+        h2 {
+          padding-top: 50px;
+        }
+        a:visited {
+          color: teal;
+        }
+        INSERT STYLES HERE FOR SCREENS BELOW 500px
+
+}
