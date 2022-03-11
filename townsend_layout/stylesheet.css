@@ -2,3 +2,8 @@
     margin: 0 auto;
     width: 900px;
 }
+
+blockquote {
+  font: 16px;
+  
+}
