@@ -1,9 +1,61 @@
+body {
+  background-color: gray;
+}
+
+#masthead {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    border: 15px solid;
+    text-align: center;
+}
+
 #content {
     margin: 0 auto;
     width: 900px;
 }
 
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+  font-size: 16px;
+  color: white;
+}
+
+h2 {
+  font-family: Helvetica;
+}
+
+h3 {
+  color: white;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
 blockquote {
   font: 16px;
-  
+  font-style: italic;
+  margin: 15px 50px 15px;
+  color: white;
+  padding-left: 15px;
+  border-left: 4px solid;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+figcaption {
+  color: white;
+  font-size: 11.5px;
+  text-align: left;
+}
+
+li {
+  color: white;
 }
