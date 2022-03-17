@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+}
+
+/* Styling for the page topper */ 
+#masthead {
+    background-color: orange;
+    color: black;
+    border: 15px solid;
+    text-align: center;
+}
+
+/* Styling for everything under the header */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 25px;
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Styling for byline */
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: white;
+}
+
+p {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+/* Styling for captions, made from a p class rather than a div */
+.caption{
+  color: orange;
+  font-size: 10px;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 20px;
+  font-style: oblique;
+  color: orange;
+}
+
+/* Styling that makes quote separate from paragraphs */
+blockquote {
+  font-family: Helvetica;
+  font: 16px;
+  font-style: italic;
+  margin: 15px 50px 15px;
+  color: white;
+  padding-left: 15px;
+  border-left: 4px solid orange;
+}
+
+
+h3 {
+  color: orange;
+  font-size: 15px;
+}
+
+/* "The Townsend" Title of Orgainization */
+h4 {
+  font-family: Georgia;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline;
+}
+
+li {
+  color: white;
+}
