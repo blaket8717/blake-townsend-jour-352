@@ -139,9 +139,15 @@ li {
 
 /* Centering the mission statement on top of the resume to be placed under Self-employed properly*/
 .top {
-  width: 60%;
+  width: 61%;
   min-width: 300px;
   margin-bottom: 30px;
   margin: 0 auto;
   color: black;
+  font-weight: 20;
+}
+
+.footer {
+  margin: auto;
+  width: 10%;
 }
