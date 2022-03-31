@@ -6,6 +6,21 @@ BODY {
   font-size: 1em;
   color: #444;
   font-weight: 400;
+  background-color: yellow;
+}
+
+header {
+  background-image: url("images/sportssection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 
 /* Container for full page */
@@ -19,10 +34,10 @@ BODY {
 /* Adding elemnts to headline my name on webpage*/
 #name {
   font-size: 3.5em;
-  color: #33485e;
+  color: yellow;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 2px solid #33485e;
+  border-bottom: 2px solid yellow;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
@@ -30,11 +45,11 @@ BODY {
 
 /* My title is blue and bigger  */
 #title {
-  color: #33485e;
+  color: yellow;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 300;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -53,8 +68,9 @@ BODY {
   margin-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 70%;
+  width: 100%;
   min-width: 300px;
+  text-align: center;
 }
 
 /* Changed the size of the font and boldness to job titles */
@@ -97,6 +113,7 @@ BODY {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  color: yellow;
 }
 
 /* Degrees are now bulleted items under Education */
@@ -126,4 +143,5 @@ li {
   min-width: 300px;
   margin-bottom: 30px;
   margin: 0 auto;
+  color: black;
 }
