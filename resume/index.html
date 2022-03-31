@@ -3,49 +3,60 @@
 <html lang="en">
   <head>
 
+    <!--Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <!--Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Blake Townsend's resume </title>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
+
   </head>
+
+  <header>
 
   <body>
     <div id="container">
       <!-- I built this myself! -->
       <div id="name"> Blake Townsend </div>
 
-      <!--<img src="blake.JPG" width="300px" length="25px"> -->
-
-      <ul class="menu">
-        <li style="display:inline;"><a href="mailto:btownse3@umd.edu"> Email me! </a> </li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/in/blaketownsend/">LinkedIn </a> </li>
-        <li style="display:inline;"><a href="https://twitter.com/_blake_townsend"> Twitter </a> </li>
-        <li style="display:inline;"><a href="https://github.com/blaket8717"> Github </a> </li>
-      </ul>
-
-
       <div id="title"> Self-employed </div>
 
+      <img src="images/blake.JPG" width="300px" length="25px">
 
-      <div class="top"> I am a senior student at the University of Maryland studying Journalism. Throughout my college
-      career, I’ve had several opportunities that have ultimately help improve my writing, reporting,
-      and coding skills. </div>
+    </header>
 
-      <br>
+    <div class="top"> I am a senior student at the University of Maryland studying Journalism. Throughout my college
+    career, I’ve had several opportunities that have ultimately help improve my writing, reporting,
+    and coding skills. </div>
+
+    <ul class="menu">
+      <li style="display:inline;"><a href="mailto:btownse3@umd.edu"> Email me! </a> </li>
+      <li style="display:inline;"><a href="https://www.linkedin.com/in/blaketownsend/">LinkedIn </a> </li>
+      <li style="display:inline;"><a href="https://twitter.com/_blake_townsend"> Twitter </a> </li>
+      <li style="display:inline;"><a href="https://github.com/blaket8717"> Github </a> </li>
+    </ul>
 
       <div class="sectionheader">Experience: </div>
 
+    <div class="row">
+      <div class="col-md-6">
       <div class="jobtitle">Student Beat Writer</div>
       <div class="organization">Covering Sports For The University Of Maryland</div>
       <div class="date">Fall 2021</div>
-      <p class="description">Covered the following stories in my Sports Writing And Reporting course:
-        Maryland’s Field Hockey Team, Washington Spirit (NWSL), Maryland’s Volleyball Team
-        And Maryland’s Women’s Basketball </p>
+      <p class="description"><ul>Covered the following stories in my Sports Writing And Reporting course:
+        <li>Maryland’s Field Hockey Team</li> <li>Washington Spirit (NWSL)</li> <li>Maryland’s Volleyball Team</li>
+        <li>Maryland’s Women’s Basketball</li> </p>
+      </ul>
+      </div>
 
-
+      <div class="col-md-6">
       <div class="jobtitle">Covering Jewish University Of Maryland Newspaper</div>
       <div class="organization">The Mitzpeh</div>
       <div class="date">Spring 2020</div>
@@ -53,25 +64,29 @@
       <a href="Http://umdmitzpeh.com/2021/05/05/annual-kedma-wiffleball-tournament-returns/"> Kedma </a> </p>
       <p class="description">A story based on a Jewish Dance Organization that welcomed a New Member to their Team during the Pandemic:
       <a href="Http://umdmitzpeh.Com/2021/03/10/avirahs-extra-round-of-auditions-pay-off-as-they-welcome-a-new-member/"> Avirah </a> </p>
+      </div>
+    </div>
 
-
+    <div class="row">
+      <div class="col-md-4">
       <div class="jobtitle">Doordash Driver</div>
       <div class="organization">Doordash</div>
       <div class="date">Spring 2019-Present</div>
 
       <p class="description">Handled over 300 food deliveries with a consistent customer rating of five starts out of five.</p>
+      </div>
 
 
-
+      <div class="col-md-4">
       <div class="jobtitle">Kitchen</div>
       <div class="organization">Grotto’s Pizza</div>
       <div class="date">Spring 2017-Fall 2018</div>
 
       <p class="description">Assisting line cooks, preparing the food and bringing the final product to the customers.
         Also, involved prep work like stocking shelves and cleaning.</p>
+      </div>
 
-
-
+      <div class="col-md-4">
       <div class="jobtitle">Summer Intern</div>
       <div class="organization">Sun Ventures LLC</div>
       <div class="date">Summer 2015 & Summer 2016</div>
@@ -80,23 +95,43 @@
         Interacted with customers to ensure all needs were met. Ordered materials.
         Designed and installed landscape material to enhance residential and commercial sites.
         Tracked all labor and materials to ensure profitability and contract compliance. </p>
-
-
-      <div class="sectionheader">Education: </div>
-      <ul id="degrees">
-        <li>Associate of Arts Transfer Studies- Anne Arundel Community College, Spring ’20.</li>
-        <li>Bachelor’s Degree- Multi-Platform Journalism, University of Maryland, IN PROGRESS (2022)</li>
-      </ul>
-
-      <div class="sectionheader">Skills: </div>
-      <ul id="do">
-        <li>Interviewing. Quick on my feet to come up with a question to help expand an answer that wasn’t clear.
-        Really engaged with the person that I am interviewing.</li>
-        <li>Microsoft Office Skills. Tools were used throughout my college career and have become very experienced with them.</li>
-        <li>Strong work ethic. Determined to get anything done and ready to move on to the next project.</li>
-        <li>Time management. Always thinking steps ahead and making sure that I’m prepared in the future.</li>
-      </ul>
+      </div>
     </div>
+
+
+
+        <div class="sectionheader">Education: </div>
+        <ul id="degrees">
+          <div class="row">
+            <div class="col-md-6">
+            <li>Associate of Arts Transfer Studies- Anne Arundel Community College, Spring ’20.</li>
+            </div>
+            <div class="col-md-6">
+            <li>Bachelor’s Degree- Multi-Platform Journalism, University of Maryland, IN PROGRESS (2022)</li>
+          </div>
+          </div>
+        </ul>
+
+
+        <div class="sectionheader">Skills: </div>
+        <ul id="do">
+          <div class="row">
+            <div class=col-md-3>
+            <li>Interviewing. Quick on my feet to come up with a question to help expand an answer that wasn’t clear.
+            Really engaged with the person that I am interviewing.</li>
+            </div>
+            <div class=col-md-3>
+            <li>Microsoft Office Skills. Tools were used throughout my college career and have become very experienced with them.</li>
+            </div>
+            <div class=col-md-3>
+            <li>Strong work ethic. Determined to get anything done and ready to move on to the next project.</li>
+            </div>
+            <div class=col-md-3>
+            <li>Time management. Always thinking steps ahead and making sure that I’m prepared in the future.</li>
+            </div>
+          </div>
+        </ul>
+      </div>
   </body>
 
 </html>
