@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+}
+
+/* Topper Section */
+.topper {
+  margin-bottom: 50px;
+}
+
+#headline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  font-weight: 200;
+  color: red;
+}
+
+#topper-img{
+  width: 100%;
+  max-width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+h5 {
+  font-family: "Montserrat", serif;
+  text-align: left;
+  padding-right: 825px;
+  color: red;
+}
+
+#byline {
+  font-family: serif, sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+  color: white;
+}
+
+#main-pic-cap {
+  font-family: serif, sans-serif;
+  width: 1100px;
+  margin: 0 auto;
+  color: gray;
+}
+
+/* Story Section */
+.story-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.paragraph{
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.image-box {
+  width: 100%;
+}
+
+.photo-caption {
+  font-family: serif, sans-serif;
+  color: gray;
+}
+
+blockquote {
+  font-family: "Montserrat", sans-serif;
+  color: red;
+	font-weight: bold;
+	font-style: italic;
+	margin: 1em 3em;
+}
+
+.graphic {
+  background-color: white;
+}
+
+/* Bootstrap */
+.container {
+  background-color: white;
+}
