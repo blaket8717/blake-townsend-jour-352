@@ -24,13 +24,14 @@ body {
 
 h5 {
   font-family: "Montserrat", serif;
-  text-align: left;
-  padding-left: 825px;
+  text-align: right;
+  padding-right: 825px;
   color: white;
   font-style: italic;
   display: table-caption;
   margin-bottom: -20px;
   font-size: 1.1em;
+  max-width: 100%;
 }
 
 #byline {
