@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color:
 }
 
 /* Topper Section */
@@ -16,23 +16,28 @@ body {
 
 #topper-img{
   width: 100%;
-  max-width: 1100px;
+  max-width: 1500px;
   height: 500px;
   margin: 0 auto;
+  display: table;
 }
 
 h5 {
   font-family: "Montserrat", serif;
   text-align: left;
-  padding-right: 825px;
-  color: red;
+  padding-left: 825px;
+  color: white;
+  font-style: italic;
+  display: table-caption;
+  margin-bottom: -20px;
+  font-size: 1.1em;
 }
 
 #byline {
   font-family: serif, sans-serif;
   font-size: 1em;
   margin: 0 auto;
-  color: white;
+  color: gray;
 }
 
 #main-pic-cap {
@@ -40,6 +45,8 @@ h5 {
   width: 1100px;
   margin: 0 auto;
   color: gray;
+  float: left;
+  font-style: italic;
 }
 
 /* Story Section */
@@ -53,16 +60,16 @@ h5 {
 .paragraph{
   font-family: serif, sans-serif;
   font-size: 18px;
-  color: white;
 }
 
 .image-box {
-  width: 100%;
+  margin: 0 auto;
 }
 
 .photo-caption {
   font-family: serif, sans-serif;
   color: gray;
+  font-style: italic;
 }
 
 blockquote {
@@ -75,9 +82,16 @@ blockquote {
 
 .graphic {
   background-color: white;
+  max-width: 1100px;
 }
 
 /* Bootstrap */
 .container {
   background-color: white;
+}
+
+.image-box2 {
+  max-width: 400px;
+  margin-bottom: 25px;
+  margin: 0 auto;
 }
